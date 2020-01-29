@@ -25,14 +25,14 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WebDriverSetUp {
-	
+
 	protected static Logger LOGGER = null;
-	
+
 	public static WebDriver createDriver(String browser, String runFromSuite, String browserRemote)
 			throws MalformedURLException, InstantiationException, IllegalAccessException {
-		
-		System.setProperty("log4j.configurationFile","log4j2Config.xml");
-        LOGGER = LogManager.getLogger();
+
+		System.setProperty("log4j.configurationFile", "log4j2Config.xml");
+		LOGGER = LogManager.getLogger();
 		String osName = System.getProperty("os.name");
 		WebDriver driver = null;
 		if (osName.contains("Windows")) {
@@ -40,7 +40,7 @@ public class WebDriverSetUp {
 			if (runFromSuite.equalsIgnoreCase("true")) {
 
 				if (browserRemote.equalsIgnoreCase("chromeRemote")) {
-					
+
 					LOGGER.info("Opening Chrome Driver");
 					WebDriverManager.chromedriver().setup();
 					DesiredCapabilities capability = DesiredCapabilities.chrome();

@@ -26,6 +26,7 @@ public class FeaturesDropDownMenu extends PageBase {
 	public FeeSchedulePage navigateToFeeSchedulePage() {
 		
 		Waits wait = new Waits(driver);
+		LOGGER.error("Testing error logger");
 		SeleniumMethods sel = new SeleniumMethods(driver);
 		sel.selClickBy(FeaturesDropDownMenuLocators.FEE_SCHEDULE_PAGE_LINK_X);
 		return new FeeSchedulePage(driver);

@@ -19,9 +19,7 @@ public class SeleniumMethods extends PageBase {
 	public SeleniumMethods(WebDriver driver) {
 		super(driver);
 	}
-	
-		
-		
+			
 	public void selClickBy(By byElemLocator) {
 		Waits wait = new Waits(driver);
 		wait.waitForElementClickableBy(byElemLocator);

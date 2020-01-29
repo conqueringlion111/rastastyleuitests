@@ -1,0 +1,7 @@
+22:31:11.863 [TestNG-tests-1] INFO  com.mychallenge.util.WebDriverSetUp - Opening Chrome Driver
+22:31:11.863 [TestNG-tests-3] INFO  com.mychallenge.util.WebDriverSetUp - Opening Chrome Driver
+22:31:11.863 [TestNG-tests-2] INFO  com.mychallenge.util.WebDriverSetUp - Opening Chrome Driver
+22:31:23.599 [TestNG-tests-2] INFO  com.mychallenge.pagebase.PageBase - Hovering over Features link
+22:31:23.794 [TestNG-tests-3] INFO  com.mychallenge.pagebase.PageBase - Hovering over Features link
+22:31:24.165 [TestNG-tests-3] ERROR com.mychallenge.pagebase.PageBase - Testing error logger
+22:31:27.921 [TestNG-tests-1] INFO  com.mychallenge.pagebase.PageBase - switching to new window
