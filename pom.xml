@@ -21,7 +21,6 @@
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>MyUITestSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<testErrorIgnore>true</testErrorIgnore>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
